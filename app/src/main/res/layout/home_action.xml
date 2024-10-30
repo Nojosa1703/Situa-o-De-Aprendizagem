@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Escolha uma Opção"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="24dp" />
+
+    <Button
+        android:id="@+id/btnCadastrar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cadastrar Produto"
+        android:backgroundTint="@color/design_default_color_primary"
+        android:layout_marginBottom="16dp"/>
+
+    <Button
+        android:id="@+id/btnVisualizar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Visualizar Produtos"
+        android:backgroundTint="@color/design_default_color_secondary"/>
+
+</LinearLayout>

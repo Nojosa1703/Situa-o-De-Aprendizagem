@@ -1,0 +1,13 @@
+<resources>
+    <string-array name="categorias_array">
+        <item>Medicamento e Saúde</item>
+        <item>Higiene e Beleza</item>
+        <item>Fitness e Nutrição</item>
+        <item>Outros</item>
+    </string-array>
+    <string name="app_name">SharedPreferences</string>
+    <string name="prefs_login">prefs_login</string>
+    <string name="prefs_email">prefs_email</string>
+    <string name="prefs_pass">prefs_pass</string>
+    <string name="pref_switch">prefs_switch</string>
+</resources>
